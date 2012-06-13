@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Railsgirls</title>
+  <link rel="stylesheet" href="xhttp://railsgirls.com/assets/bootstrap.css">
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="navbar" >
+		<a class="brand" href="/">The Sleeping Zombie Idea app</a>									
+</div>
+
+<div class="wrap">	
+
+		<div class="content">
+			<%= yield %>
+		</div>
+	   
+	<footer>
+			<div class="container">
+			  <span class="railsgirls">&nbsp;Rails Girls 2012&nbsp;</span>
+			</div>
+	</footer>
+	
+</div>
+</body>
+</html>

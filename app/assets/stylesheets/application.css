@@ -1,0 +1,107 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+    
+#logo {
+		font-size: 20px;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		float: left;
+		padding: 10px;
+}
+
+body {
+		width: 100%;
+		margin: auto;
+		padding: 0px;
+}
+
+.wrap {
+		width: 960px;
+		margin: auto;
+}
+
+footer {
+		margin-top: 100px;
+}
+
+.railsgirls {
+		background: red;
+		color: white;
+}
+
+table, td, th {
+		background: #f0f0f0;
+		vertical-align: middle !important;
+		border: none !important;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		margin-top: 15px;
+}
+
+th { 
+		border-bottom: 1px solid #000 !important;
+		margin-bottom: 5px;
+		padding-top: 12px;
+		text-align: left;
+		background: #808080;
+		color: white;
+}
+
+.tabela {
+	width: 100%;
+	background: red;
+}
+
+td.picture {
+		width: 140px;
+}
+
+td.picture img {
+		width: 140px;
+}
+
+td {
+		padding: 0px;
+		padding-top: 12px;
+}
+
+tr {
+		border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar {width: 100%;
+}
+
+.navbar  {
+	width: 100px
+	float: left;
+	display: block;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 4;
+	color: #FFF;
+	background: #000;
+	font-family: helvetica, arial, sans-serif;
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+.navbar > a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.brand  {
+	color: #FFF;
+	font-weight: bold;
+	
+}
+
+
+.tools {color: blue;
+}
+
